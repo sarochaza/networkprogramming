@@ -1,0 +1,8 @@
+#Step 0: Shared Configuration
+# config.py
+HOST = "127.0.0.1"
+BASE_PORT = 7002
+BUFFER_SIZE = 1024
+NEIGHBORS = [7001, 7002]  
+FORWARD_PROBABILITY = 0.5  
+TTL = 3 
